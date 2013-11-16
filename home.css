@@ -1,0 +1,614 @@
+/*-------------------------------------------------------------------------------------------*/
+/* reset
+/*-------------------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* alle pagina's css */
+/*-------------------------------------------------------------------------------------------*/
+
+body{
+    width: 1000px;
+    height:auto;
+    font-family:Trebuchet,sans-serif;
+	font-size: 16px;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+	background: #959595; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#959595), color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), color-stop(76%,#4e4e4e), color-stop(87%,#383838), color-stop(100%,#1b1b1b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595',endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */   
+}
+#inhoud{ 
+    margin-left: auto;
+    margin-right:auto;
+    position: relative; 
+    padding-bottom: 20px;
+    line-height:1.35em;
+    font-family:arial, verdana, sans-serif;
+    width: 80%;
+    background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 10%, rgba(255,255,255,0.8) 94%, rgba(255,255,255,0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(10%,rgba(255,255,255,0.8)), color-stop(94%,rgba(255,255,255,0.8)), color-stop(100%,rgba(255,255,255,0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* IE10+ */
+    background: linear-gradient(135deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff',endColorstr='#ccffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#header{
+	width: 801px;
+	height: 300px;
+	background-image: url(front.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size:cover;
+}
+#header h1{
+    text-indent:-99999px   
+}
+#logo{
+    border-top-width: medium;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(red-metal-texture-background.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height:50px;
+}
+h1{
+    padding-left: 70px;
+    font-size:20px;
+    margin-top:10px;
+    margin-left:10px;
+    color: #C2C1C4; 
+}
+h2{
+    padding-top:20px;
+}
+#nav {
+    margin-top:0px;
+	position: relative;
+	width: 70%;
+	float: right;
+	bottom: 28px;
+	padding: 0;
+	list-style: none;
+	height: auto;
+}
+#nav li {
+	float: left; 
+}
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration:none;
+	font-weight: bold;
+	color: #ACABAD; 
+}
+#nav li a:hover,#nav li a:focus {
+	color: #fff; 
+}
+#nav .current a {
+	background: #C2C1C4;
+	color: black;
+	border-radius: 5px;
+}
+#tekst{
+    clear:both;
+    margin-top:10px;
+    padding-left: 70px;
+    width:500px;
+    padding-bottom:30px;    
+}
+
+#link:hover{
+    text-decoration: none;    
+}
+#link:visited{
+    color:black;
+}
+#bodemcontainer{
+	color:#C2C1C4;
+    border-top-color:#000;
+    position: relative;
+	font-size: 11px;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(red-metal-texture-background.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+    width:80%;
+    height:60px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    padding-bottom:10px;
+}
+.mail{
+    color:#ACABAC;
+}
+.mail:hover{
+    text-decoration: none;    
+}
+.mobilesOnly {
+    display:none;
+}
+div.linkercontainer{
+    text-align: left;
+    width:200px;
+    height:auto;
+    left:0;
+    margin-top:6px;
+    padding-left:70px; 
+}
+div.rechtercontainer{
+    text-align: left;
+    width:auto;
+    height:60px;
+    bottom:5px;
+    margin-left:60%;
+    position:absolute;
+}
+img#voorkant{
+    position: relative; 
+    width:100%;
+    height:300px;
+    bottom: 60px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* home */
+/*-------------------------------------------------------------------------------------------*/
+
+#mer{
+    position:absolute;
+    width:250px;
+    height:17%;
+    top:470px;
+    margin-left:66%;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* onderhoud */
+/*-------------------------------------------------------------------------------------------*/
+
+.fotobox{
+    margin-top:15px;
+    height:140px;
+    width:auto;
+    padding:2px;
+    border:1px solid #333;
+}
+a:hover .fotobox{
+    border-color:#888;
+}
+#foto{
+    width:200px;
+    margin-left:70px;
+}
+#werkplaats{
+    width:500px;
+    height:300px;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+#tekst2{
+    position:absolute;
+    height:auto;
+    top:1980px;
+    margin-left:40%;
+}
+h3{
+    text-transform:none;
+}
+#Aircodiagnose{
+    margin-top:12px;
+}
+#Bandenopslag{
+    margin-top:59px
+}
+#Autoreiniging{
+    margin-top:60px;
+}
+#Parking{
+    margin-top:18px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* over ons */
+/*-------------------------------------------------------------------------------------------*/
+
+#teller{
+    position:absolute;
+    width:175px;
+    height:175px;
+    top:450px;
+    margin-left:75%;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* Verkoop */
+/*-------------------------------------------------------------------------------------------*/
+#persgeg{
+    padding-top:10px;
+}
+dt{
+    padding-top:10px;
+}
+#lijst{
+    padding-left: 70px;
+    padding-bottom:20px;
+ 
+    width:40%;
+}
+#verzend{
+    padding-top:20px;
+}
+#toonzaal{
+    position:absolute;
+    width:400px;
+    height:250px;
+    margin-top:100px;
+    margin-left:40%;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* contact */
+/*-------------------------------------------------------------------------------------------*/
+
+#map{
+    margin-left:40px;
+    height:250px;
+    width:250px;
+}
+#contactinfo{
+    position:absolute;
+    width:450px;
+    height:17%;
+    top:65%;
+    margin-left:40%;
+}
+
+div.linker{
+    text-align: left;
+    width:300px;
+    height:auto;
+    left:0;
+    margin-top:6px;
+     
+}
+div.rechter{
+    text-align: left;
+    width:200px;
+    height:60px;
+    top:6px;
+    margin-left:60%;
+    position:absolute;
+}
+#route{
+    color:black;
+    padding:90px;
+}
+#route:hover{
+    text-decoration: none;    
+}
+.mail2{
+    color:black;
+}
+.mail2:hover{
+    text-decoration: none;    
+}
+#tel{
+	color: black;
+	text-decoration: none;
+	visibility: inherit;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* Verhuur */
+/*-------------------------------------------------------------------------------------------*/
+
+#huurauto{
+    position:absolute;
+    width:360px;
+    height:200px;
+    top:580px;
+    margin-left:35%;
+}
+#huurauto2{
+    width:360px;
+    height:200px;
+    margin-left:26%;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* <768px width*/
+/*-------------------------------------------------------------------------------------------*/
+
+@media(max-width:768px){
+body{
+    width:768px;
+}
+#header {
+	width: 100%;
+	height: 200px;
+    background-image: url(front.jpg);
+}
+#toonzaal{
+    width:230px;
+    height:150px;
+    margin-left:60%;
+    margin-top:80px;
+}
+h1{
+    padding-left: 30px;
+    font-size:13px;
+}
+#tekst{
+    padding-left: 40px;
+}
+#nav{
+    font-size:12px;
+    width:77%;
+    bottom: 23px;
+}
+#inhoud{
+    font-size:12px;
+}
+#mer{
+    position:static;
+    width:250px;
+    height:17%;
+    margin-left:55%;
+}
+#huurauto{
+    position:absolute;
+    width:250px;
+    height:139px;
+    top:402px;
+    margin-left:41%;
+}
+#teller{
+     position:static;
+    width: 150px;
+    height:120px;
+    margin-left:60%;
+}
+#tekst2{
+    position:absolute;
+    height:auto;
+    top:1475px;
+    margin-left:50%;
+    width: 250px
+}
+#Autodiagnose{
+    margin-top:5px
+}
+#Aircodiagnose{
+    margin-top:9px;
+}
+#Bandenopslag{
+    margin-top:56px
+}
+#Autoreiniging{
+    margin-top:55px;
+}
+#Parking{
+    margin-top:12px;
+}
+.fotobox{
+    margin-top:20px;
+}
+#contactinfo{
+    position:absolute;
+    width:300px;
+    height:17%;
+    top:62%;
+    margin-left:50%;
+    padding-left:8px;
+}
+div.linker{
+    width:120px;
+    height:auto;
+    left:0;
+    margin-top:6px;
+     
+}
+div.rechter{
+    text-align: left;
+    width:120px;
+    height:60px;
+    top:6px;
+    margin-left:56%;
+    position:absolute;
+}
+}
+/*-------------------------------------------------------------------------------------------*/
+/* <620px width*/
+/*-------------------------------------------------------------------------------------------*/
+
+@media(max-width:319px){
+body{
+    width:620px;
+}
+#header {
+	width: 100%;
+	height: 100px;
+    background-image: url(front.jpg);
+}
+#lijst{
+   display:none;
+}
+#toonzaal{
+    position:relative;
+    width:230px;
+    height:150px;
+    margin-left:20%;
+    margin-top:0px;
+}
+#logo{
+	height:25px;
+    padding-bottom:10px;
+}
+h1{
+    padding-left: 30px;
+    font-size:11px;
+}
+#tekst{
+    padding-left: 30px;
+    width:350px;
+}
+#nav{
+    font-size:10px;
+    width:77%;
+    bottom: 14px;
+}
+#nav li a {
+	padding: 5px 10px;
+}
+#inhoud{
+    font-size:9px;
+}
+#mer{
+    position:static;
+    width:250px;
+    height:17%;
+    margin-left:25%;
+}
+#huurauto{
+    position:absolute;
+    width:185px;
+    height:82px;
+    top:220px;
+    margin-left:42%;
+}
+#huurauto2{
+    width:240px;
+    height:150px;
+}
+
+#teller{
+     position:static;
+    width: 150px;
+    height:120px;
+    margin-left:55%;
+}
+.fotobox{
+    margin-top:100px;
+    margin-bottom:20px;
+}
+#tekst2{
+    position:absolute;
+    height:auto;
+    top:1060px;
+    margin-left:10px;
+}
+#foto{
+    margin-left:10px;
+}
+#werkplaats{
+    width:300px;
+    height:180px;
+}
+#contactinfo{
+    position:absolute;
+    width:150px;
+    top:40%;
+    margin-left:60%;
+    padding-left:8px;
+}
+div.linkercontainer{
+    padding-left:10px; 
+}
+
+#bodemcontainer{
+	font-size: 9px;
+}
+div.linker{
+    width:350px;
+    height:auto;
+    left:0;
+    margin-top:6px;    
+}
+div.rechter{  
+    text-align: left;
+    top:80px;
+    margin-left:0%;
+}
+#tekst2 p{
+    margin-bottom:200px;
+}
+#map{
+    margin-left:40px;
+    height:170px;
+    width:170px;
+}
+.mobilesOnly {
+    display:block;
+}
+.pcOnly {
+    display:none;
+}
+}
