@@ -92,7 +92,7 @@ body{
 #header{
 	width: 801px;
 	height: 300px;
-	background-image: url(front.png);
+	background-image: url(/images/front.png);
 	background-repeat: no-repeat;
 	background-position: left center;
     background-size:cover;
@@ -106,7 +106,7 @@ body{
 	border-right-style: none;
 	border-bottom-style: none;
 	border-left-style: none;
-	background-image: url(red-metal-texture-background.png);
+	background-image: url(/images/red-metal-texture-background.png);
 	background-repeat: repeat-x;
 	background-position: bottom;
 	height:50px;
@@ -173,7 +173,7 @@ h2{
 	border-right-style: none;
 	border-bottom-style: none;
 	border-left-style: none;
-	background-image: url(red-metal-texture-background.png);
+	background-image: url(/images/red-metal-texture-background.png);
 	background-repeat: repeat-x;
 	background-position: bottom;
     width:80%;
@@ -304,10 +304,10 @@ dt{
     padding-top:20px;
 }
 #toonzaal{
-    position:absolute;
+    /*position:absolute;*/
     width:400px;
     height:250px;
-    margin-top:100px;
+    /*margin-top:100px;*/
     margin-left:40%;
 }
 
@@ -394,7 +394,7 @@ body{
 #header {
 	width: 100%;
 	height: 200px;
-    background-image: url(front.jpg);
+    background-image: url(/images/front.jpg);
 }
 #toonzaal{
     width:230px;
@@ -496,7 +496,7 @@ body{
 #header {
 	width: 100%;
 	height: 100px;
-    background-image: url(front.jpg);
+    background-image: url(/images/front.jpg);
 }
 #lijst{
    display:none;
