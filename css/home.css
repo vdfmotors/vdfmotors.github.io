@@ -248,11 +248,11 @@ a:hover .fotobox{
 }
 .tekstvak{
   
-    margin-top:15px;
-    height:0px;
-    padding:2px;
-    border:1px solid #333;
-     margin-left:60%;
+    text-align: left;
+    width:auto;
+    height:60px;
+    bottom:5px;
+    margin-left:60%;
     position:absolute;
 }
 
