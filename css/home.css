@@ -246,8 +246,13 @@ a:hover .fotobox{
     width:200px;
     margin-left:70px;
 }
-tekst2.div{
-
+.tekstvak{
+    margin-top:15px;
+    height:140px;
+    width:auto;
+    padding:2px;
+    border:1px solid #333;
+    margin-left:70px;
 }
 
 
