@@ -246,6 +246,10 @@ a:hover .fotobox{
     width:200px;
     margin-left:70px;
 }
+div.tekst2{
+    position: relative;	
+    width:80%;
+}
 .tekstvak{
   
     text-align: left;
