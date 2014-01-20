@@ -249,7 +249,7 @@ a:hover .fotobox{
 .vak{
     position: relative;	
     width:80%;
-    border:1px solid #333;
+    background:red;
 }
 .tekstvak{
     text-align: left;
