@@ -244,18 +244,20 @@ a:hover .fotobox{
 }
 #foto{
     width:200px;
-    margin-left:70px;
 }
 .vak{
     width:80%;
     height:auto;
    border:1px solid #333;
    margin top: 15px;
+   float:left;
 }
 .tekstvak{
     text-align: left;
     width:60%;
     margin-left:40%;
+    float:left;
+    overflow:hidden;
 }
 
 
