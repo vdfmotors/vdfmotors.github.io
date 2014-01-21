@@ -459,7 +459,7 @@ div.rechter{
 
 @media(max-width:640px){
 body{
-    width:620px; 
+    width:640px;   
     background:red;
 }
 #header {
@@ -526,11 +526,11 @@ h1{
 }
 
 #contactinfo{
+    position:absolute;
     width:150px;
     top:40%;
-    margin-left:40%;
+    margin-left:60%;
     padding-left:8px;
-    border:solid;
 }
 div.linkercontainer{
     padding-left:10px; 
@@ -543,13 +543,12 @@ div.linker{
     width:350px;
     height:auto;
     left:0;
-    margin-top:6px;
-    font-size: 10px;    
+    margin-top:6px;    
 }
 div.rechter{  
     text-align: left;
+    top:80px;
     margin-left:0%;
-    font-size: 1Opx;
 }
 
 #map{
@@ -559,6 +558,13 @@ div.rechter{
 }
 .fotobox{
     margin-left:30px;
+}
+.vak{
+    width:100%;
+    padding-top:10px;
+    height:auto;
+    overflow: hidden;
+   
 }
 .tekstvak{
     width:35%;
@@ -574,7 +580,6 @@ h3{
 
 /*.mobilesOnly {
     display:block;
-    
 }
 .pcOnly {
     display:none;
