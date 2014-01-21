@@ -77,7 +77,7 @@ body{
     margin-left: auto;
     margin-right:auto;
     position: relative; 
-    padding-bottom: 20px;
+    padding-bottom: 5%;
     line-height:1.35em;
     font-family:arial, verdana, sans-serif;
     width: 80%;
@@ -232,37 +232,29 @@ img#voorkant{
 /*-------------------------------------------------------------------------------------------*/
 
 .fotobox{
-    margin-top:15px;
+   
     height:140px;
     width:auto;
     padding:2px;
     border:1px solid #333;
     margin-left:70px;
+    margin-top:4px;
+    float:left;
 }
 a:hover .fotobox{
     border-color:#888;
 }
-#foto{
-    width:200px;
-    margin-left:70px;
-    float:left;
-}
+
 .vak{
     width:100%;
-   margin top: 15px;
-    position: relative;
-    padding-top:25px;
-   
-}
-.tekst2{
+    padding-top:10px;
     height:auto;
+    overflow: hidden;
+   
 }
 .tekstvak{
     width:50%;
     margin-left:40%;
-    margin-top:-154px;
-    position: absolute;
-
 }
 
 
@@ -533,7 +525,15 @@ h1{
     margin-top:100px;
     margin-bottom:20px;
 }
-
+#tekst2{
+    position:absolute;
+    height:auto;
+    top:1060px;
+    margin-left:10px;
+}
+#foto{
+    margin-left:10px;
+}
 #werkplaats{
     width:300px;
     height:180px;
@@ -562,6 +562,9 @@ div.rechter{
     text-align: left;
     top:80px;
     margin-left:0%;
+}
+#tekst2 p{
+    margin-bottom:200px;
 }
 #map{
     margin-left:40px;
