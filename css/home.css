@@ -254,10 +254,12 @@ a:hover .fotobox{
 }
 .tekstvak{
     width:50%;
-    margin-left:40%;
+    margin-left:290px;
 }
-
-
+img#werkplaats{
+    padding-top:20px;
+    width:90%;
+}
 h3{
     text-transform:none;
 }
@@ -455,9 +457,11 @@ div.rechter{
 /* <620px width*/
 /*-------------------------------------------------------------------------------------------*/
 
-@media(max-width:319px){
+@media(max-width:640px){
 body{
+      background:red;
     width:620px;
+    
 }
 #header {
         width: 100%;
