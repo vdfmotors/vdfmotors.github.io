@@ -558,13 +558,6 @@ div.rechter{
 .fotobox{
     margin-left:30px;
 }
-.vak{
-    width:100%;
-    padding-top:10px;
-    height:auto;
-    overflow: hidden;
-   
-}
 .tekstvak{
     width:35%;
     margin-left:240px;
@@ -577,10 +570,11 @@ h3{
     text-transform:none;
 }
 
-/*.mobilesOnly {
+.mobilesOnly {
     display:block;
+    
 }
 .pcOnly {
     display:none;
-}*/
+}
 }
