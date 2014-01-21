@@ -11,44 +11,44 @@ b, u, i, center,
 dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
 }
 body {
-	line-height: 1;
+        line-height: 1;
 }
 
 blockquote, q {
-	quotes: none;
+        quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+        content: '';
+        content: none;
 }
 
 /* remember to define focus styles! */
 :focus {
-	outline: 0;
+        outline: 0;
 }
 
 /* remember to highlight inserts somehow! */
 ins {
-	text-decoration: none;
+        text-decoration: none;
 }
 del {
-	text-decoration: line-through;
+        text-decoration: line-through;
 }
 
 /* tables still need 'cellspacing="0"' in the markup */
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+        border-collapse: collapse;
+        border-spacing: 0;
 }
 
 
@@ -60,11 +60,11 @@ body{
     width: 1000px;
     height:auto;
     font-family:Trebuchet,sans-serif;
-	font-size: 16px;
+        font-size: 16px;
     margin-left:auto;
     margin-right:auto;
     position: relative;
-	background: #959595; /* Old browsers */
+        background: #959595; /* Old browsers */
     background: -moz-linear-gradient(-45deg,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#959595), color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), color-stop(76%,#4e4e4e), color-stop(87%,#383838), color-stop(100%,#1b1b1b)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10+,Safari5.1+ */
@@ -90,11 +90,11 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff',endColorstr='#ccffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 #header{
-	width: 801px;
-	height: 300px;
-	background-image: url(/images/front.png);
-	background-repeat: no-repeat;
-	background-position: left center;
+        width: 801px;
+        height: 300px;
+        background-image: url(/images/front.png);
+        background-repeat: no-repeat;
+        background-position: left center;
     background-size:cover;
 }
 #header h1{
@@ -102,14 +102,14 @@ body{
 }
 #logo{
     border-top-width: medium;
-	border-top-style: solid;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	background-image: url(/images/red-metal-texture-background.png);
-	background-repeat: repeat-x;
-	background-position: bottom;
-	height:50px;
+        border-top-style: solid;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        background-image: url(/images/red-metal-texture-background.png);
+        background-repeat: repeat-x;
+        background-position: bottom;
+        height:50px;
 }
 h1{
     padding-left: 70px;
@@ -123,31 +123,31 @@ h2{
 }
 #nav {
     margin-top:0px;
-	position: relative;
-	width: 70%;
-	float: right;
-	bottom: 28px;
-	padding: 0;
-	list-style: none;
-	height: auto;
+        position: relative;
+        width: 70%;
+        float: right;
+        bottom: 28px;
+        padding: 0;
+        list-style: none;
+        height: auto;
 }
 #nav li {
-	float: left; 
+        float: left; 
 }
 #nav li a {
-	display: block;
-	padding: 8px 15px;
-	text-decoration:none;
-	font-weight: bold;
-	color: #ACABAD; 
+        display: block;
+        padding: 8px 15px;
+        text-decoration:none;
+        font-weight: bold;
+        color: #ACABAD; 
 }
 #nav li a:hover,#nav li a:focus {
-	color: #fff; 
+        color: #fff; 
 }
 #nav .current a {
-	background: #C2C1C4;
-	color: black;
-	border-radius: 5px;
+        background: #C2C1C4;
+        color: black;
+        border-radius: 5px;
 }
 #tekst{
     clear:both;
@@ -164,18 +164,18 @@ h2{
     color:black;
 }
 #bodemcontainer{
-	color:#C2C1C4;
+        color:#C2C1C4;
     border-top-color:#000;
     position: relative;
-	font-size: 11px;
-	border-top-width: medium;
-	border-top-style: solid;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	background-image: url(/images/red-metal-texture-background.png);
-	background-repeat: repeat-x;
-	background-position: bottom;
+        font-size: 11px;
+        border-top-width: medium;
+        border-top-style: solid;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        background-image: url(/images/red-metal-texture-background.png);
+        background-repeat: repeat-x;
+        background-position: bottom;
     width:80%;
     height:60px;
     margin-left:auto;
@@ -251,17 +251,16 @@ a:hover .fotobox{
     width:100%;
    margin top: 15px;
     position: relative;
-    padding bottom:10px;
+    padding-top:25px;
    
 }
 .tekst2{
     height:auto;
-    
 }
 .tekstvak{
     width:50%;
     margin-left:40%;
-    margin-top:-19%;
+    margin-top:-154px;
     position: absolute;
 
 }
@@ -357,9 +356,9 @@ div.rechter{
     text-decoration: none;    
 }
 #tel{
-	color: black;
-	text-decoration: none;
-	visibility: inherit;
+        color: black;
+        text-decoration: none;
+        visibility: inherit;
 }
 
 
@@ -391,8 +390,8 @@ body{
     width:768px;
 }
 #header {
-	width: 100%;
-	height: 200px;
+        width: 100%;
+        height: 200px;
     background-image: url(/images/front.jpg);
 }
 #toonzaal{
@@ -435,31 +434,7 @@ h1{
     height:120px;
     margin-left:60%;
 }
-#tekst2{
-    position:absolute;
-    height:auto;
-    top:1475px;
-    margin-left:50%;
-    width: 250px
-}
-#Autodiagnose{
-    margin-top:5px
-}
-#Aircodiagnose{
-    margin-top:9px;
-}
-#Bandenopslag{
-    margin-top:56px
-}
-#Autoreiniging{
-    margin-top:55px;
-}
-#Parking{
-    margin-top:12px;
-}
-.fotobox{
-    margin-top:20px;
-}
+
 #contactinfo{
     position:absolute;
     width:300px;
@@ -493,8 +468,8 @@ body{
     width:620px;
 }
 #header {
-	width: 100%;
-	height: 100px;
+        width: 100%;
+        height: 100px;
     background-image: url(/images/front.jpg);
 }
 #lijst{
@@ -508,7 +483,7 @@ body{
     margin-top:0px;
 }
 #logo{
-	height:25px;
+        height:25px;
     padding-bottom:10px;
 }
 h1{
@@ -525,7 +500,7 @@ h1{
     bottom: 14px;
 }
 #nav li a {
-	padding: 5px 10px;
+        padding: 5px 10px;
 }
 #inhoud{
     font-size:9px;
@@ -583,7 +558,7 @@ div.linkercontainer{
 }
 
 #bodemcontainer{
-	font-size: 9px;
+        font-size: 9px;
 }
 div.linker{
     width:350px;
