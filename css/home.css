@@ -459,7 +459,8 @@ div.rechter{
 
 @media(max-width:640px){
 body{
-    width:620px;   
+    width:620px; 
+    background:red;
 }
 #header {
         width: 100%;
