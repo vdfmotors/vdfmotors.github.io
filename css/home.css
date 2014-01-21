@@ -251,7 +251,7 @@ a:hover .fotobox{
     width:100%;
    margin top: 15px;
     position: relative;
-    padding top:25px;
+    padding-top:25px;
    
 }
 .tekst2{
@@ -260,7 +260,7 @@ a:hover .fotobox{
 .tekstvak{
     width:50%;
     margin-left:40%;
-    margin-top:-154px;
+
     position: absolute;
 
 }
