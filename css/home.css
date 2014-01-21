@@ -222,7 +222,7 @@ img#voorkant{
 #mer{
     position:absolute;
     width:250px;
-    height:17%;
+    height:15%;
     top:470px;
     margin-left:66%;
 }
@@ -238,7 +238,7 @@ img#voorkant{
     padding:2px;
     border:1px solid #333;
     margin-left:70px;
-    margin-top:4px;
+    margin-top:3px;
     float:left;
 }
 a:hover .fotobox{
@@ -459,9 +459,7 @@ div.rechter{
 
 @media(max-width:640px){
 body{
-      background:red;
-    width:620px;
-    
+    width:640px;   
 }
 #header {
         width: 100%;
@@ -525,23 +523,7 @@ h1{
     height:120px;
     margin-left:55%;
 }
-.fotobox{
-    margin-top:100px;
-    margin-bottom:20px;
-}
-#tekst2{
-    position:absolute;
-    height:auto;
-    top:1060px;
-    margin-left:10px;
-}
-#foto{
-    margin-left:10px;
-}
-#werkplaats{
-    width:300px;
-    height:180px;
-}
+
 #contactinfo{
     position:absolute;
     width:150px;
@@ -567,18 +549,38 @@ div.rechter{
     top:80px;
     margin-left:0%;
 }
-#tekst2 p{
-    margin-bottom:200px;
-}
+
 #map{
     margin-left:40px;
     height:170px;
     width:170px;
 }
-.mobilesOnly {
+.fotobox{
+    margin-left:30px;
+}
+.vak{
+    width:100%;
+    padding-top:10px;
+    height:auto;
+    overflow: hidden;
+   
+}
+.tekstvak{
+    width:35%;
+    margin-left:240px;
+}
+img#werkplaats{
+    padding-top:20px;
+    width:90%;
+}
+h3{
+    text-transform:none;
+}
+
+/*.mobilesOnly {
     display:block;
 }
 .pcOnly {
     display:none;
-}
+}*/
 }
