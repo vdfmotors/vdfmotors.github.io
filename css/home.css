@@ -529,6 +529,7 @@ h1{
     top:40%;
     margin-left:40%;
     padding-left:8px;
+    border:solid;
 }
 div.linkercontainer{
     padding-left:10px; 
@@ -570,11 +571,11 @@ h3{
     text-transform:none;
 }
 
-.mobilesOnly {
+/*.mobilesOnly {
     display:block;
     
 }
 .pcOnly {
     display:none;
-}
+}*/
 }
