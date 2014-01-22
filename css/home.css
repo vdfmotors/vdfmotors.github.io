@@ -460,7 +460,7 @@ div.rechter{
 @media(max-width:640px){
 body{
     width:640px;   
-    background:red;
+    background:green;
 }
 #header {
         width: 100%;
@@ -492,7 +492,7 @@ h1{
 #nav{
     font-size:10px;
     width:77%;
-    bottom: 14px;
+    bottom: 100px;
 }
 #nav li a {
         padding: 3px 10px;
@@ -579,12 +579,12 @@ h3{
 
 .mobilesOnly {
     display:block;
-    text-decoration:none;
+}
+#tel{
+  text-decoration:none;
     color:black;
 }
 .pcOnly {
     display:none;
-    text-decoration:none;
-    color:black;
 }
 }
