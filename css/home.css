@@ -192,6 +192,8 @@ h2{
 }
 .mobilesOnly {
     display:none;
+    color:inherit;
+    font-style:none;
 }
 div.linkercontainer{
     text-align: left;
