@@ -464,7 +464,7 @@ div.linker{
 @media /*only screen*/(max-width:640px){
 body{
     width:640px;   
-    background:green;
+    background:red;
 }
 #header {
         width: 100%;
@@ -514,8 +514,8 @@ h1{
     position:absolute;
     width:185px;
     height:82px;
-    top:260px;
-    margin-left:48%;
+    top:280px;
+    margin-left:49%;
 }
 #huurauto2{
     width:240px;
@@ -585,7 +585,7 @@ h3{
 .pcOnly {
     display:hidden;
 }
-a.tel{
+#tel{
     color:black;
 }
 }
