@@ -192,8 +192,7 @@ h2{
 }
 .mobilesOnly {
     display:none;
-    color:inherit;
-    font-style:none;
+    color:#C2C1C4;
 }
 div.linkercontainer{
     text-align: left;
@@ -464,7 +463,7 @@ div.linker{
 @media /*only screen*/(max-width:640px){
 body{
     width:640px;   
-    background:red;
+    background:green;
 }
 #header {
         width: 100%;
@@ -483,20 +482,21 @@ body{
 }
 #logo{
     height:25px;
-    padding-bottom:20px;
 }
 h1{
     padding-left: 30px;
     font-size:11px;
+    width:75px;
+    margin-top:5px;
 }
 #tekst{
     padding-left: 30px;
     width:350px;
 }
 #nav{
+    margin-top:7px;
     font-size:10px;
     width:77%;
-    bottom: 20px;
 }
 #nav li a {
         padding: 3px 10px;
@@ -585,7 +585,7 @@ h3{
 .pcOnly {
     display:hidden;
 }
-#tel{
+a:tel{
     color:black;
 }
 }
