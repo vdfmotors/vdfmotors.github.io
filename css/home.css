@@ -577,9 +577,11 @@ h3{
     text-transform:none;
 }
 
-/*.mobilesOnly {
+.mobilesOnly {
     display:block;
-}*/
+    text-decoration:none;
+    color:black;
+}
 .pcOnly {
     display:none;
     text-decoration:none;
