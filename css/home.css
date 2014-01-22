@@ -460,7 +460,7 @@ div.rechter{
 @media(max-width:640px){
 body{
     width:640px;   
-    background:red;
+    background:green;
 }
 #header {
         width: 100%;
@@ -578,9 +578,9 @@ h3{
 }
 
 .mobilesOnly {
-    display:block;
+    display:visible;
 }
 .pcOnly {
-    display:none;
+    display:hidden;
 }
 }
