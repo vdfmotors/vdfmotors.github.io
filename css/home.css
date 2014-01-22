@@ -460,10 +460,9 @@ div.linker{
 /* <620px width*/
 /*-------------------------------------------------------------------------------------------*/
 
-@media /*only screen*/(max-width:640px){
+@media only screen(max-width:640px){
 body{
     width:640px;   
-    background:green;
 }
 #header {
         width: 100%;
@@ -514,7 +513,7 @@ h1{
     position:absolute;
     width:185px;
     height:82px;
-    top:280px;
+    top:300px;
     margin-left:49%;
 }
 #huurauto2{
