@@ -460,7 +460,7 @@ div.rechter{
 @media(max-width:640px){
 body{
     width:640px;   
-    background:red;
+    background:green;
 }
 #header {
         width: 100%;
@@ -479,6 +479,7 @@ body{
 }
 #logo{
     height:25px;
+    margin-bottom:20px;
 }
 h1{
     padding-left: 30px;
@@ -497,7 +498,7 @@ h1{
         padding: 3px 10px;
 }
 #inhoud{
-    font-size:9px;
+    font-size:10px;
 }
 #mer{
     position:static;
@@ -545,7 +546,7 @@ div.linker{
 }
 div.rechter{  
     text-align: left;
-    top:80px;
+
     margin-left:0%;
 }
 
@@ -578,7 +579,6 @@ h3{
 
 .mobilesOnly {
     display:visible;
-    text-decoration:none;
 }
 .pcOnly {
     display:hidden;
