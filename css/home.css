@@ -514,8 +514,8 @@ h1{
     position:absolute;
     width:185px;
     height:82px;
-    top:220px;
-    margin-left:42%;
+    top:260px;
+    margin-left:48%;
 }
 #huurauto2{
     width:240px;
@@ -586,6 +586,6 @@ h3{
     display:hidden;
 }
 a.tel{
-    color:inherit;
+    color:black;
 }
 }
