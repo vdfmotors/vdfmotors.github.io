@@ -224,7 +224,7 @@ img#voorkant{
 .alert{
     position:absolute;
     width:160px;
-    height:20%;
+    height:15%;
     top:404px;
     margin-left:70%;
     padding-top: 10px;
@@ -304,10 +304,9 @@ dt{
 }
 #toonzaal{
     /*position:absolute;*/
-    width:400px;
     height:250px;
     /*margin-top:100px;*/
-    margin-left:40%;
+    margin-left:9%;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -406,8 +405,7 @@ body{
 #toonzaal{
     width:230px;
     height:150px;
-    margin-left:60%;
-    margin-top:80px;
+    margin-left:7%;
 }
 h1{
     padding-left: 30px;
@@ -484,7 +482,7 @@ body{
     position:relative;
     width:230px;
     height:150px;
-    margin-left:20%;
+    margin-left:6%;
     margin-top:0px;
 }
 #logo{
