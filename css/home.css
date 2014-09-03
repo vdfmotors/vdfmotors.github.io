@@ -106,8 +106,8 @@ body{
 
 }
 #header h1{
-    margin-top: 0px;
-    text-indent:-99999px   
+	margin-top: 0px;
+	text-indent: -99999px;
 }
 #logo{
 	border-top-width: medium;
@@ -811,6 +811,7 @@ div.linkercontainer {
 	font-size: 12px;
 	width: 460px;
 	padding-bottom: 50px;
+	left: 1px;
 }
 div.rechtercontainer {
 	text-align: left;
@@ -887,5 +888,15 @@ div.rechter {
 	padding-bottom: 0px;
 	right: 30px;
 	width: 200px;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* alle pagina's css */
+/*-------------------------------------------------------------------------------------------*/
+body {
+	min-height: 100vh;
+	height: 100%;
+	left: 0px;
+	right: 0px;
+	min-width: 100%;
 }
     }
