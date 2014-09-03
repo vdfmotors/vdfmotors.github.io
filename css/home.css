@@ -22,9 +22,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 	background: transparent;
 }
-body {
-        line-height: 1;
-}
 
 blockquote, q {
         quotes: none;
@@ -60,21 +57,22 @@ table {
 /*-------------------------------------------------------------------------------------------*/
 
 body{
-    width: 1000px;
-    height:auto;
-    font-family:Trebuchet,sans-serif;
-        font-size: 16px;
-    margin-left:auto;
-    margin-right:auto;
-    position: relative;
-        background: #959595; /* Old browsers */
-    background: -moz-linear-gradient(-45deg,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#959595), color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), color-stop(76%,#4e4e4e), color-stop(87%,#383838), color-stop(100%,#1b1b1b)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* IE10+ */
-    background: linear-gradient(135deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C */
+	width: 100%;
+	height: auto;
+	font-family: Trebuchet,sans-serif;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background: #959595; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#959595), color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), color-stop(76%,#4e4e4e), color-stop(87%,#383838), color-stop(100%,#1b1b1b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595',endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */   
+	margin-top: 0px;
 }
 #inhoud{ 
     overflow:hidden;
@@ -84,7 +82,7 @@ body{
     padding-bottom: 5%;
     line-height:1.35em;
     font-family:arial, verdana, sans-serif;
-    width: 80%;
+    width: 1000px;
     background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 10%, rgba(255,255,255,0.8) 94%, rgba(255,255,255,0.8) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(10%,rgba(255,255,255,0.8)), color-stop(94%,rgba(255,255,255,0.8)), color-stop(100%,rgba(255,255,255,0.8))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* Chrome10+,Safari5.1+ */
@@ -94,56 +92,66 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff',endColorstr='#ccffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 #header{
-        width: 801px;
-        height: 300px;
-        background-image: url("../images/front.png");
-        background-repeat: no-repeat;
-        background-position: left center;
-        background-size:cover;
+	width: 1001px;
+	height: 300px;
+	background-image: url("../images/front.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: cover;
+	margin-top: 0px;
 }
 #header h1{
+    margin-top: 0px;
     text-indent:-99999px   
 }
 #logo{
-    border-top-width: medium;
-        border-top-style: solid;
-        border-right-style: none;
-        border-bottom-style: none;
-        border-left-style: none;
-        background-image: url(../images/red-metal-texture-background.png);
-        background-repeat: repeat-x;
-        background-position: bottom;
-        height:50px;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/red-metal-texture-background.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 50px;
+	margin-top: 0px;
 }
+
 h1{
-	padding-left: 70px;
+	padding-left: 80px;
 	font-size: 20px;
 	margin-top: 10px;
-	/* [disabled]margin-left: 10px; */
+	margin-left: 0px;
 	color: #C2C1C4;
+	height: auto;
 }
 h2{
     padding-top:20px;
 }
 #nav {
-    margin-top:0px;
-        position: relative;
-        width: 70%;
-        float: right;
-        bottom: 28px;
-        padding: 0;
-        list-style: none;
-        height: auto;
+    margin-top: 0px;
+	position: relative;
+	width: 70%;
+	float: right;
+	bottom: 28px;
+	padding: 0;
+	list-style: none;
+	height: auto;
+	left: -17px;
 }
 #nav li {
-        float: left; 
+	float: left;
+	margin-top: 0px;
+	padding-right: 0px;
 }
 #nav li a {
-        display: block;
-        padding: 8px 15px;
-        text-decoration:none;
-        font-weight: bold;
-        color: #ACABAD; 
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ACABAD;
+	margin-left: 8px;
+	left: 5px;
 }
 #nav li a:hover,#nav li a:focus {
         color: #fff; 
@@ -154,11 +162,11 @@ h2{
         border-radius: 5px;
 }
 #tekst{
-    clear:both;
-    margin-top:10px;
-    padding-left: 70px;
-    width:500px;
-    padding-bottom:30px;    
+	clear: both;
+	margin-top: 0px;
+	padding-left: 80px;
+	width: 620px;
+	padding-bottom: 30px;
 }
 
 #link:hover{
@@ -183,7 +191,7 @@ h2{
         background-image: url(../images/red-metal-texture-background.png);
         background-repeat: repeat-x;
         background-position: bottom;
-    width:80%;
+    width:1001px;
     height:60px;
     margin-left:auto;
     margin-right:auto;
@@ -214,10 +222,10 @@ div.rechtercontainer{
 	width: auto;
 	height: 60px;
 	bottom: 5px;
-	margin-left: 60%;
 	position: absolute;
 	min-width: 0px;
 	line-height: 14px;
+	right: 80px;
 }
 img#voorkant{
     position: relative; 
@@ -231,16 +239,15 @@ img#voorkant{
 /*-------------------------------------------------------------------------------------------*/
 
 .alert{
-    position:absolute;
-    width:160px;
-    height:15%;
-    top:404px;
-    margin-left:70%;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: double ;
-    background-color: #C7C7C7;
+	position: absolute;
+	width: 160px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: double;
+	background-color: #C7C7C7;
+	right: 80px;
+	top: 391px;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -248,14 +255,13 @@ img#voorkant{
 /*-------------------------------------------------------------------------------------------*/
 
 .fotobox{
-   
-    height:140px;
-    width:auto;
-    padding:2px;
-    border:1px solid #333;
-    margin-left:70px;
-    margin-top:3px;
-    float:left;
+	height: 140px;
+	width: auto;
+	padding: 2px;
+	border: 1px solid #333;
+	margin-left: 80px;
+	margin-top: 3px;
+	float: left;
 }
 a:hover .fotobox{
     border-color:#888;
@@ -268,15 +274,8 @@ a:hover .fotobox{
     overflow: hidden;
    
 }
-.vak_aanbod{
-    width:100%;
-    padding-top:10px;
-    height:auto;
-    overflow: hidden;
-   
-}
 .tekstvak{
-    width:50%;
+    width:60%;
     margin-left:290px;
 }
 
@@ -294,11 +293,11 @@ h3{
 /*-------------------------------------------------------------------------------------------*/
 
 #teller{
-    position:absolute;
-    width:175px;
-    height:175px;
-    top:394px;
-    margin-left:75%;
+	position: absolute;
+	width: 175px;
+	height: 175px;
+	top: 394px;
+	left: 750px;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -320,23 +319,24 @@ dt{
     padding-top:20px;
 }
 #aanbod:hover{
-    text-decoration: none;    
+	text-decoration: none;
+	width: auto;
 }
 #aanbod:visited{
     color:black;
 }
 #aanbod{
-    color:black;
-    position:absolute;
-    top:70%;
-    margin-left: 67.5%;
+	color: black;
+	position: absolute;
+	top: 70%;
+	margin-left: 636px;
+	margin-top: 30px;
 }
 
 #toonzaal{
-    /*position:absolute;*/
-    height:250px;
-    /*margin-top:100px;*/
-    margin-left:9%;
+	/*position:absolute;*/
+	height: 250px;
+	margin-left: 80px;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -362,12 +362,29 @@ dt{
 	margin-left: 0px;
 }
 .foto_vak{
-	width: 34%;
+	width: 300px;
 	padding: 1px;
-	margin-left: 70px;
-	margin-top: 155px;
+	margin-left: 80px;
+	margin-top: 154px;
 	position: absolute;
 }
+.vak_aanbod{
+    width:100%;
+    padding-top:10px;
+    height:auto;
+    overflow: hidden;
+   
+}
+.fotobox2 {
+	height: 140px;
+	width: auto;
+	padding: 2px;
+	border: 1px solid #333;
+	margin-left: 80px;
+	margin-top: 3px;
+	float: left;
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /* contact */
 /*-------------------------------------------------------------------------------------------*/
@@ -376,32 +393,29 @@ dt{
     padding-right:20px;
 }
 #map{
-    margin-left:80px;
+    margin-left:70px;
     height:250px;
     width:250px;
     
 }
 #contactinfo{
-    width:450px; 
-    overflow: hidden;
-    margin-top:80px;
+	width: 530px;
+	overflow: hidden;
 }
 
 div.linker{
-    text-align: left;
-    width:auto;
-    height:auto;
-    left:0;
-    margin-top:6px;
-    float:left;
-     
+	margin-left: 50px;
+	text-align: left;
+	width: auto;
+	height: auto;
+	left: 0;
+	float: left;
 }
 div.rechter{
-    text-align: left;
-    width:auto;
-    top:6px;
-    padding-left:10%;
-    overflow:inherit;
+	text-align: left;
+	overflow: inherit;
+	position: absolute;
+	left: 662px;
 }
 #route{
     color:black;
@@ -425,36 +439,17 @@ div.rechter{
         visibility: inherit;
 }
 
-
-/*-------------------------------------------------------------------------------------------*/
-/* Verhuur */
-/*-------------------------------------------------------------------------------------------*/
-
-#huurauto{
-    position:absolute;
-    width:360px;
-    height:200px;
-    top:580px;
-    margin-left:35%;
-}
-#huurauto2{
-    width:360px;
-    height:200px;
-    margin-left:26%;
-    margin-top:40px;
-    margin-bottom:20px;
-}
-
 /*-------------------------------------------------------------------------------------------*/
 /* <768px width*/
 /*-------------------------------------------------------------------------------------------*/
 
 @media(max-width:768px){
-body{
-    width:768px;
+#inhoud{
+	font-size: 12px;
+	width: 720px;
 }
 .foto_vak{
-	width: 46%;
+	width: 44%;
 	margin-left: 40px;
 }
 #header {
@@ -469,20 +464,19 @@ body{
     margin-left:7%;
 }
 h1{
-	padding-left: 30px;
+	padding-left: 40px;
 	font-size: 13px;
-	margin-left: 10px;
+	margin-left: 0px;
+	margin-top: 6px;
 }
 #tekst{
     padding-left: 40px;
 }
 #nav{
-    font-size:12px;
-    width:77%;
-    bottom: 23px;
-}
-#inhoud{
-    font-size:12px;
+	font-size: 12px;
+	width: 77%;
+	bottom: 25px;
+	left: 1px;
 }
 
 .alert{
@@ -496,10 +490,10 @@ h1{
     margin-left:41%;
 }
 #teller{
-     position:static;
-    width: 150px;
-    height:120px;
-    margin-left:60%;
+	position: static;
+	width: 150px;
+	height: 120px;
+	margin-left: 531px;
 }
 div.linker{
     text-align: left;
@@ -508,9 +502,9 @@ div.linker{
      
 }
 #contactinfo{
-    width:300px;
-    height:17%;
-
+	width: 300px;
+	height: 17%;
+	margin-left: -60px;
 }
 #map{
     margin-left:40px;
@@ -521,6 +515,7 @@ div.linker{
     margin-left:70px;
 
 }
+
 /*-------------------------------------------------------------------------------------------*/
 /* aanbod */
 /*-------------------------------------------------------------------------------------------*/
@@ -534,6 +529,26 @@ div.linker{
 	height: 32.6px;
 	margin-right: 0px;
 	margin-top: 0px;
+}
+    .aanbod_tekst {
+	width: 40%;
+	margin-left: 357px;
+}
+#aanbod {
+	color: black;
+	position: absolute;
+	top: 70%;
+	margin-left: 455px;
+	margin-top: 30px;
+}
+.fotobox2 {
+	height: 140px;
+	width: auto;
+	padding: 2px;
+	border: 1px solid #333;
+	margin-left: 40px;
+	margin-top: 3px;
+	float: left;
 }
 /*-------------------------------------------------------------------------------------------*/
 /* onderhoud */
@@ -551,11 +566,9 @@ div.linker{
 .tekstvak {
 	width: 40%;
 	margin-left: 250px;
+	padding-bottom: 0px;
 }
-.aanbod_tekst {
-	width: 40%;
-	margin-left: 357px;
-}
+
 div.linkercontainer {
 	text-align: left;
 	width: 200px;
@@ -572,24 +585,88 @@ div.linkercontainer {
 	overflow: hidden;
 	padding-bottom: 20px;
 }
-
-
+#bodemcontainer {
+	color: #C2C1C4;
+	border-top-color: #000;
+	position: relative;
+	font-size: 11px;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/red-metal-texture-background.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	width: 720px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding-bottom: 10px;
+}
+div.rechtercontainer {
+	text-align: left;
+	width: auto;
+	height: 60px;
+	bottom: 5px;
+	position: absolute;
+	min-width: 0px;
+	line-height: 14px;
+	right: 40px;
+}
+#logo {
+	border-top-width: medium;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/red-metal-texture-background.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 32px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+}
+#nav li a {
+	display: block;
+	padding-top: 4px;
+	padding-right: 9px;
+	padding-left: 12px;
+	padding-bottom: 4px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ACABAD;
+	margin-left: 8px;
+}
+#nav li {
+	float: left;
+	margin-top: 5px;
+	padding-right: 0px;
+}
+div.rechter {
+	text-align: left;
+	overflow: inherit;
+	position: absolute;
+	right: 30px;
+	left: 477px;
+}
+#contactinfo {
+	margin-top: 0;
+	margin-left: -62px;
+}
 
 }
+
 /*-------------------------------------------------------------------------------------------*/
 /* <480 width*/
 /*-------------------------------------------------------------------------------------------*/
 
 @media (max-width:480px){
-body{
-    width:640px;   
-}
 #header {
-        width: 100%;
-        height: 120px;
-
-    background-image: url(../images/front.jpg);
-
+	width: 101%;
+	height: 120px;
+	background-image: url(../images/front.jpg);
 }
 #lijst{
    display:none;
@@ -602,70 +679,62 @@ body{
     margin-top:0px;
 }
 #logo{
-    height:25px;
+	height: 23px;
+	padding-top: 2px;
 }
 h1{
-	padding-left: 21px;
+	padding-left: 30px;
 	font-size: 11px;
 	width: 75px;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 #tekst{
     padding-left: 30px;
     width:350px;
 }
 #nav{
-    margin-top:7px;
-    font-size:10px;
-    width:77%;
+	font-size: 10px;
+	width: 77%;
+	bottom: 16px;
 }
 #nav li a {
-        padding: 3px 10px;
+	padding-top: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	margin-bottom: -9px;
+	margin-top: -4px;
 }
-#inhoud{
-    font-size:10px;
-}
-
 .alert{
     visibility: hidden;
 
 }
-#huurauto{
-    position:absolute;
-    width:185px;
-    height:82px;
-    top:300px;
-    margin-left:49%;
-}
-#huurauto2{
-    width:240px;
-    height:150px;
-}
 
 #teller{
-     position:static;
-    width: 150px;
-    height:120px;
-    margin-left:55%;
+	position: static;
+	width: 150px;
+	height: 120px;
+	margin-left: 281px;
 }
 
 #contactinfo{
-    width:150px;
-    margin-top:0;
-
-    padding-left:70px;
+	width: 150px;
+	margin-top: 0;
+	padding-left: 70px;
+	margin-left: 0px;
 }
 div.linkercontainer{
     padding-left:10px; 
 }
 
 #bodemcontainer{
-        font-size: 9px;
+	font-size: 9px;
+	width: 460px;
 }
 div.linker{
-    margin-top:0;
-    float:none;
-    padding-bottom:20px;
+	float: left;
+	padding-bottom: 20px;
+	margin-left: -63px;
 }
 div.rechter{  
     text-align: left;
@@ -673,12 +742,30 @@ div.rechter{
 }
 
 #map{
-    margin-left:40px;
-    height:170px;
-    width:170px;
+	margin-left: 30px;
+	height: 170px;
+	width: 170px;
 }
 .fotobox{
-    margin-left:30px;
+	margin-left: 30px;
+	margin-top: 121px;
+	float: left;
+	position: static;
+}
+#Airco{
+	margin-top: 86px;
+}
+#Band{
+	margin-top: 87px;
+}
+#Park{
+	margin-top: 57px;
+}
+#Poets{
+	margin-top: 119px;
+}
+#Comp{
+	margin-top: 118px;
 }
 .vak{
 	width: 100%;
@@ -686,12 +773,14 @@ div.rechter{
 	height: auto;
 	overflow: hidden;
 	padding-bottom: 20px;
-	top: -47px;
 	margin-top: 0px;
 }
 .tekstvak{
-	width: 30%;
-	margin-left: 246px;
+	position: absolute;
+	margin-top: 0px;
+	width: 400px;
+	margin-left: 30px;
+	padding-bottom: 0px;
 }
 img#werkplaats{
     padding-top:20px;
@@ -711,15 +800,18 @@ a:tel{
     color:black;
 }
 .foto_vak {
-	width: 50%;
-	margin-left: 29px;
+	margin-left: 30px;
 	position: relative;
+	margin-top: 0px;
+	width: 200px;
+	height: 17px;
 }
 .aanbod_tekst {
-	width: 39%;
-	margin-left: 310px;
+	margin-left: 226px;
 	position: static;
-	margin-top: -257px;
+	margin-top: -20px;
+	font-size: x-small;
+	width: 230px;
 }
 div.linkercontainer {
 	text-align: left;
@@ -732,9 +824,75 @@ div.linkercontainer {
 }
 .vak_aanbod {
 	width: 100%;
-	padding-top: 0px;
+	padding-top: 2px;
 	height: auto;
 	overflow: hidden;
-	padding-bottom: 80px;
+	padding-bottom: 0px;
+	margin-top: 5px;
 }
+#inhoud {
+	font-size: 12px;
+	width: 460px;
+	padding-bottom: 50px;
 }
+div.rechtercontainer {
+	text-align: left;
+	width: auto;
+	height: 60px;
+	bottom: 5px;
+	position: absolute;
+	min-width: 0px;
+	line-height: 14px;
+	right: 30px;
+}
+#nav li {
+	float: left;
+	margin-top: 4px;
+	padding-right: 0px;
+}
+#aanbod {
+	color: black;
+	position: absolute;
+	top: 70%;
+	margin-left: 310px;
+	margin-top: 20px;
+}
+#contactinfo {
+	margin-top: 0;
+}
+div.rechter {
+	text-align: left;
+	overflow: inherit;
+	position: absolute;
+	left: 228px;
+	bottom: 70px;
+	right: 20px;
+}
+
+
+
+
+.fotobox2 {
+	height: 90px;
+	width: auto;
+	padding: 2px;
+	border: 1px solid #333;
+	margin-left: 30px;
+	margin-top: 3px;
+	float: left;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* aanbod */
+/*-------------------------------------------------------------------------------------------*/
+.lightbox_hide_image {
+	width: auto;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	border: 1px solid #333;
+	height: 28px;
+	margin-right: 0px;
+	margin-top: 2px;
+}
+    }
