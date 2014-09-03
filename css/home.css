@@ -181,6 +181,7 @@ h2{
     color:black;
 }
 #bodemcontainer{
+    top: 30px;
         color:#C2C1C4;
     border-top-color:#000;
     position: relative;
@@ -602,7 +603,6 @@ div.linkercontainer {
 	background-position: bottom;
 	width: 720px;
 	height: 60px;
-	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: auto;
 	padding-bottom: 10px;
