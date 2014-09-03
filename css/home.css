@@ -667,7 +667,7 @@ div.rechter {
 /* <480 width*/
 /*-------------------------------------------------------------------------------------------*/
 
-@media (max-width:480px){
+@media only screen (max-width:480px){
 #header {
 	width: 101%;
 	height: 120px;
