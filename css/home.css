@@ -663,230 +663,26 @@ div.rechter {
 
 }
 
-/*-------------------------------------------------------------------------------------------*/
-/* <480 width*/
-/*-------------------------------------------------------------------------------------------*/
 
-@media (max-width:480px){
-#header {
-	width: 101%;
-	height: 120px;
-	background-image: url(../images/front.jpg);
-}
-#lijst{
-   display:none;
-}
-#toonzaal{
-    position:relative;
-    width:230px;
-    height:150px;
-    margin-left:6%;
-    margin-top:0px;
-}
-#logo{
-	height: 23px;
-	padding-top: 2px;
-}
-h1{
-	padding-left: 30px;
-	font-size: 11px;
-	width: 75px;
-	margin-top: 0px;
-}
-#tekst{
-    padding-left: 30px;
-    width:350px;
-}
-#nav{
-	font-size: 10px;
-	width: 77%;
-	bottom: 16px;
-}
-#nav li a {
-	padding-top: 1px;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-bottom: 1px;
-	margin-bottom: -9px;
-	margin-top: -4px;
-}
-.alert{
-    visibility: hidden;
-
-}
-
-#teller{
-	position: static;
-	width: 150px;
-	height: 120px;
-	margin-left: 281px;
-}
-
-#contactinfo{
-	width: 150px;
-	margin-top: 0;
-	padding-left: 70px;
-	margin-left: 0px;
-}
-div.linkercontainer{
-    padding-left:10px; 
-}
-
-#bodemcontainer{
-	font-size: 9px;
-	width: 460px;
-}
-div.linker{
-	float: left;
-	padding-bottom: 20px;
-	margin-left: -63px;
-}
-div.rechter{  
-    text-align: left;
-    padding-left:0;
-}
-
-#map{
-	margin-left: 30px;
-	height: 170px;
-	width: 170px;
-}
-.vak{
-	width: 100%;
-	padding-top: 0px;
-	height: auto;
-	overflow: hidden;
-	padding-bottom: 20px;
-	margin-top: 0px;
-}
-img#werkplaats{
-    padding-top:20px;
-    width:90%;
-}
-h3{
-    text-transform:none;
-}
-
-.mobilesOnly {
-    display:visible;
-}
-.pcOnly {
-    display:hidden;
-}
-a:tel{
-    color:black;
-}
-.foto_vak {
-	margin-left: 30px;
-	position: relative;
-	margin-top: 0px;
-	width: 200px;
-	height: 17px;
-}
-.aanbod_tekst {
-	margin-left: 226px;
-	position: static;
-	margin-top: -20px;
-	font-size: x-small;
-	width: 230px;
-}
-div.linkercontainer {
-	text-align: left;
-	width: 200px;
-	height: auto;
-	left: 25px;
-	margin-top: 6px;
-	padding-left: 31px;
-	line-height: 11px;
-}
-.vak_aanbod {
-	width: 100%;
-	padding-top: 2px;
-	height: auto;
-	overflow: hidden;
-	padding-bottom: 0px;
-	margin-top: 5px;
-}
+@media screen and (max-width:480px){
 #inhoud {
 	font-size: 12px;
 	width: 460px;
-	padding-bottom: 50px;
-	background-color: #B63537;
-}
-div.rechtercontainer {
-	text-align: left;
-	width: auto;
-	height: 60px;
-	bottom: 5px;
-	position: absolute;
-	min-width: 0px;
-	line-height: 14px;
-	right: 30px;
 }
 #nav li {
 	float: left;
-	margin-top: 4px;
+	margin-top: 5px;
 	padding-right: 0px;
+	font-size: x-small;
 }
-#aanbod {
-	color: black;
-	position: absolute;
-	top: 70%;
-	margin-left: 310px;
-	margin-top: 20px;
+h1 {
+	padding-left: 40px;
+	font-size: 12px;
+	margin-left: 0px;
+	margin-top: 6px;
 }
-#contactinfo {
-	margin-top: 0;
+#tekst {
+	padding-left: 40px;
+	width: 400px;
 }
-div.rechter {
-	text-align: left;
-	overflow: inherit;
-	position: absolute;
-	left: 228px;
-	bottom: 70px;
-	right: 20px;
 }
-
-.fotobox2 {
-	height: 90px;
-	width: auto;
-	padding: 2px;
-	border: 1px solid #333;
-	margin-left: 30px;
-	margin-top: 3px;
-	float: left;
-}
-/*-------------------------------------------------------------------------------------------*/
-/* aanbod */
-/*-------------------------------------------------------------------------------------------*/
-.lightbox_hide_image {
-	width: auto;
-	padding-top: 1px;
-	padding-right: 1px;
-	padding-left: 1px;
-	padding-bottom: 1px;
-	border: 1px solid #333;
-	height: 28px;
-	margin-right: 0px;
-	margin-top: 2px;
-}
-/*-------------------------------------------------------------------------------------------*/
-/* onderhoud */
-/*-------------------------------------------------------------------------------------------*/
-
-.fotobox {
-	height: 140px;
-	width: auto;
-	padding: 2px;
-	border: 1px solid #333;
-	margin-left: 30px;
-	margin-top: 3px;
-	float: left;
-}
-.tekstvak {
-	margin-left: 230px;
-	padding-bottom: 0px;
-	right: 30px;
-	width: 200px;
-}
-    }
