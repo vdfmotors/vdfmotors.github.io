@@ -668,7 +668,6 @@ div.rechter {
 /*-------------------------------------------------------------------------------------------*/
 
 @media only screen
-and (min-device-width : 320px)
 and (max-device-width : 480px) {
 #header {
 	width: 101%;
@@ -811,7 +810,7 @@ div.linkercontainer {
 }
 #inhoud {
 	font-size: 12px;
-	width: 460px;
+	width: 95vw;
 	padding-bottom: 50px;
 	left: 1px;
 }
@@ -899,6 +898,8 @@ body {
 	height: 100%;
 	left: 0px;
 	right: 0px;
-	min-width: 100%;
+	min-width: 100vw;
+	width: 100vw;
 }
     }
+
