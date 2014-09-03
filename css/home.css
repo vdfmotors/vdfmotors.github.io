@@ -60,7 +60,7 @@ body {
 }
 body{
 	width: 100%;
-	height: auto;
+	height: 100vh;
 	font-family: Trebuchet,sans-serif;
 	font-size: 16px;
 	margin-left: auto;
@@ -77,7 +77,7 @@ body{
 	margin-top: 0px;
 }
 #inhoud{ 
-    margin-top: 30px;
+    top: 30px;
     margin-left: auto;
     margin-right:auto;
     position: relative; 
