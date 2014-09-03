@@ -76,21 +76,23 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595',endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */   
 	margin-top: 0px;
 }
-#inhoud{ 
-    top: 30px;
-    margin-left: auto;
-    margin-right:auto;
-    position: relative; 
-    padding-bottom: 5%;
-    line-height:1.35em;
-    font-family:arial, verdana, sans-serif;
-    width: 1000px;
-    background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 10%, rgba(255,255,255,0.8) 94%, rgba(255,255,255,0.8) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(10%,rgba(255,255,255,0.8)), color-stop(94%,rgba(255,255,255,0.8)), color-stop(100%,rgba(255,255,255,0.8))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* IE10+ */
-    background: linear-gradient(135deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* W3C */
+#vulling{
+	min-height: 30px;
+}
+#inhoud{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding-bottom: 5%;
+	line-height: 1.35em;
+	font-family: arial, verdana, sans-serif;
+	width: 1000px;
+	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 10%, rgba(255,255,255,0.8) 94%, rgba(255,255,255,0.8) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(10%,rgba(255,255,255,0.8)), color-stop(94%,rgba(255,255,255,0.8)), color-stop(100%,rgba(255,255,255,0.8))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* IE10+ */
+	background: linear-gradient(135deg,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 10%,rgba(255,255,255,0.8) 94%,rgba(255,255,255,0.8) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff',endColorstr='#ccffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 #header{
@@ -181,25 +183,24 @@ h2{
     color:black;
 }
 #bodemcontainer{
-    top: 30px;
-        color:#C2C1C4;
-    border-top-color:#000;
-    position: relative;
-        font-size: 11px;
-        border-top-width: medium;
-        border-top-style: solid;
-        border-right-style: none;
-        border-bottom-style: none;
-        border-left-style: none;
-        background-image: url(../images/red-metal-texture-background.png);
-        background-repeat: repeat-x;
-        background-position: bottom;
-    width:1001px;
-    height:60px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:auto;
-    padding-bottom:10px;
+	color: #C2C1C4;
+	border-top-color: #000;
+	position: relative;
+	font-size: 11px;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/red-metal-texture-background.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	width: 1001px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding-bottom: 10px;
 }
 .mail{
     color:#ACABAC;
@@ -606,6 +607,7 @@ div.linkercontainer {
 	margin-right: auto;
 	margin-bottom: auto;
 	padding-bottom: 10px;
+	padding-top: 0px;
 }
 div.rechtercontainer {
 	text-align: left;
