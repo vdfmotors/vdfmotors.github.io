@@ -55,10 +55,15 @@ table {
 /*-------------------------------------------------------------------------------------------*/
 /* alle pagina's css */
 /*-------------------------------------------------------------------------------------------*/
-
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
 body{
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	font-family: Trebuchet,sans-serif;
 	font-size: 16px;
 	margin-left: auto;
