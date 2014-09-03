@@ -77,7 +77,7 @@ body{
 	margin-top: 0px;
 }
 #inhoud{ 
-    overflow:hidden;
+    overflow:auto;
     margin-left: auto;
     margin-right:auto;
     position: relative; 
