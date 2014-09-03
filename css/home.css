@@ -668,6 +668,9 @@ div.rechter {
 /*-------------------------------------------------------------------------------------------*/
 
 @media (max-width:480px){
+#body{
+	
+}
 #header {
 	width: 101%;
 	height: 120px;
@@ -735,6 +738,7 @@ div.linkercontainer{
 #bodemcontainer{
 	font-size: 9px;
 	width: 460px;
+	position: absolute;
 }
 div.linker{
 	float: left;
@@ -811,6 +815,7 @@ div.linkercontainer {
 	font-size: 12px;
 	width: 460px;
 	padding-bottom: 50px;
+	position: absolute;
 }
 div.rechtercontainer {
 	text-align: left;
