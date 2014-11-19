@@ -122,16 +122,13 @@ body{
 	margin-top: 0px;
 }
 
-h1{
+h2{
 	padding-left: 80px;
 	font-size: 20px;
 	margin-top: 10px;
 	margin-left: 0px;
 	color: #C2C1C4;
 	height: auto;
-}
-h2{
-    padding-top:20px;
 }
 #nav {
     margin-top: 0px;
