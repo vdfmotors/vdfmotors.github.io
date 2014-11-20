@@ -170,7 +170,9 @@ h2{
 	width: 620px;
 	padding-bottom: 30px;
 }
-
+#tekst h3{
+	margin-top: 20px;
+}
 #link:hover{
     text-decoration: none;    
 }
