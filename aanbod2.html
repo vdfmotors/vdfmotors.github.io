@@ -8,10 +8,12 @@
         <link rel="stylesheet" type="text/css" href="css/home.css" />
         <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 	    <script type="text/javascript" src="js/lightbox.min.js"></script>
-        <script type="text/javascript" src="js/iframe.js"></script>
         <link href="css/lightbox.css" rel="stylesheet" />
+      
+
         </head>
         <body>
+            
             <div id="vulling"> </div>
             <div id="inhoud">
                 <div id="header">
@@ -26,9 +28,17 @@
                     <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-    <iframe src="http://cpcms.autoscout24.com/index.php?sci=0c66fd5386fb2e4e8538778e00e25eded9f0bc7a" width="100%" height="100" marginheight="0" frameborder="0" scrolling="no" onload="autoResize(this);"></iframe>
+                <iframe id="iframe" src="http://cpcms.autoscout24.com/index.php?sci=0c66fd5386fb2e4e8538778e00e25eded9f0bc7a" width="100%" scrolling="no"></iframe>
+             <script type="application/javascript">
+                 
+                iframe = document.getElementById("iframe");
+                var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+                 alert(iframe.document);
+              alert(iframe.contentDocument.documentElement.scrollHeight);
+                  alert(iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight);
+                </script>
             </div>
-            
+
              <div id="bodemcontainer">
                    <div class="linkercontainer">        
                         <i>VDF motors</i><br/>
@@ -46,5 +56,6 @@
                             zaterdag tot en met maandag gesloten<br/>        
                     </div>
             </div>
+            
         </body>
         </html>
